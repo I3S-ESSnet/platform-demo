@@ -1,0 +1,8 @@
+ingress-nginx:
+ controller:
+  publishService:
+    enabled: true
+  service:
+    loadBalancerIP: <reserved_ip_address>
+ rbac:
+  create: true

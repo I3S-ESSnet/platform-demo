@@ -1,0 +1,5 @@
+**/.terraform/*
+gke/account.json
+gke/terraform.tfstate
+gke/terraform.tfstate.backup
+gke/run.plan
