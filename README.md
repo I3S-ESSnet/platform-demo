@@ -124,7 +124,7 @@ Switch back to the `platform-demo`repo fork
 ````sh
 $ cd apps/nginx-ingress
 $ helm dependencies update
-`````
+````
 
 Replace `<reserved_ip_address>`in `values.yaml`with the correct ip-address.
 
@@ -137,6 +137,6 @@ NAMESPACE: nginx-ingress
 STATUS: deployed
 REVISION: 1
 TEST SUITE: None
-`````
+````
 
-Now you can vist `http://i2.<reserved_ip_address>.xip.io/is2/`
+Now you can vist `http://i2.<reserved_ip_address>.xip.io/is2/` Default username/password are posted in  [is2 README](https://github.com/mecdcme/is2/blob/master/README.md)
