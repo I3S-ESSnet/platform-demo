@@ -1,0 +1,15 @@
+USER-SUPPLIED VALUES:
+env:
+  SPRING_DATASOURCE_DRIVERCLASSNAME: org.postgresql.Driver
+  SPRING_DATASOURCE_PASSWORD: toto
+  SPRING_DATASOURCE_PLATFORM: postgresql
+  SPRING_DATASOURCE_URL: jdbc:postgresql://is2-db:5432/postgres?currentSchema=is2
+  SPRING_DATASOURCE_USERNAME: postgres
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  enabled: true
+  hosts:
+  - host: is2.<reserved_ip_address>.xip.io
+    paths:
+    - /
