@@ -20,8 +20,8 @@ $ gcloud auth login
 $ gcloud projects create i3s-ninja
 $ gcloud config set project i3s-ninja
 $ gcloud iam service-accounts create terraform
-$ gcloud projects add-iam-policy-binding i3s-ninja --member "serviceAccount:terraform@i3s-$ $ ninja.iam.gserviceaccount.com" --role "roles/owner"
-$ gcloud iam service-accounts keys create account.json --iam-account "terraform@i3s-$ ninja.iam.gserviceaccount.com"
+$ gcloud projects add-iam-policy-binding i3s-ninja --member "serviceAccount:terraform@i3s-ninja.iam.gserviceaccount.com" --role "roles/owner"
+$ gcloud iam service-accounts keys create account.json --iam-account "terraform@i3s-ninja.iam.gserviceaccount.com"
 ```
 
 Output : 
