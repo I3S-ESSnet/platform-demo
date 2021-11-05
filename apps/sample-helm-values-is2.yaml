@@ -9,6 +9,6 @@ ingress:
     kubernetes.io/ingress.class: nginx
   enabled: true
   hosts:
-  - host: is2.<reserved_ip_address>.xip.io
+  - host: is2.<reserved_ip_address>.nip.io
     paths:
     - /

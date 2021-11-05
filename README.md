@@ -131,12 +131,12 @@ ingress:
     kubernetes.io/ingress.class: nginx
   enabled: true
   hosts:
-  - host: is2.<reserved_ip_address>.xip.io
+  - host: is2.<reserved_ip_address>.nip.io
     paths:
     - /
 ````
 
-:information_source: this example does not cover real DNS and TLS certificates, we just use https://xip.io/ which is a free wildcards DNS service.
+:information_source: this example does not cover real DNS and TLS certificates, we just use https://nip.io/ which is a free wildcards DNS service.
 
 Apply your values
 ````sh
@@ -149,4 +149,4 @@ STATUS: deployed
 REVISION: 2
 ```` 
 
-Now you can vist `http://i2.<reserved_ip_address>.xip.io/is2/` Default username/password are posted in  [is2 README](https://github.com/mecdcme/is2/blob/master/README.md)
+Now you can vist `http://i2.<reserved_ip_address>.nip.io/is2/` Default username/password are posted in  [is2 README](https://github.com/mecdcme/is2/blob/master/README.md)
