@@ -150,3 +150,7 @@ REVISION: 2
 ```` 
 
 Now you can vist `http://i2.<reserved_ip_address>.nip.io/is2/` Default username/password are posted in  [is2 README](https://github.com/mecdcme/is2/blob/master/README.md)
+
+### Cleanup
+* delete kubernestes cluster ```terraform destroy```
+* delete GCP project ```gcloud projects delete i3s-ninja```
